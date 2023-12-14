@@ -1,0 +1,214 @@
+/*===== Side tool options css =====*/
+.ms-tool {
+    position: fixed;
+    left: -158px;
+    top: 150px;
+    width: 158px;
+    z-index: 16;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  .ms-tool-btn {
+    position: absolute;
+    left: 158px;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    -webkit-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 25px;
+    z-index: -1;
+    text-decoration: none;
+    background: #fff;
+    top: 0;
+    border: 1px solid $border-color;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  }
+  .option-box-title {
+    background: $title-color;
+    padding: 3px 15px;
+    h3 {
+      color: $white;
+      margin: 0;
+      font-size: 16px;
+      text-align: center;
+      padding: 6px 9px;
+      font-weight: 500;
+    }
+  }
+  .ms-color {
+    background: #fff;
+    padding: 15px;
+    overflow: auto;
+    border: 1px solid $title-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      width: 25px;
+      height: 25px;
+      margin: 7px;
+      display: inline-flex;
+      -webkit-transition: all ease-in 0.3s;
+      transition: all ease-in 0.3s;
+      .color {
+        @include ease3;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        border-radius: $border-radius-10;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .color.c-1 {
+        background-color: $main-primary-color-1;
+      }
+      .color.c-2 {
+        background-color: $main-primary-color-2;
+      }
+      .color.c-3 {
+        background-color: $main-primary-color-3;
+      }
+      .color.c-4 {
+        background-color: $main-primary-color-4;
+      }
+      .color.c-5 {
+        background-color: $main-primary-color-5;
+      }
+      .color.c-6 {
+        background-color: $main-primary-color-6;
+      }
+      .color.c-7 {
+        background-color: $main-primary-color-7;
+      }
+      .color.c-8 {
+        background-color: $main-primary-color-8;
+      }
+      .color.c-9 {
+        background-color: $main-primary-color-9;
+      }
+
+    }
+  }
+  /**  Backgrounds  **/
+  .ms-skin {
+    background: #fff;
+    padding: 15px 10px;
+    overflow: auto;
+    border: 1px solid $title-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      width: 30px;
+      height: 30px;
+      margin: 7px;
+      display: inline-flex;
+      -webkit-transition: all ease-in 0.3s;
+      transition: all ease-in 0.3s;
+      .skin {
+        @include ease3;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        border-radius: $border-radius-10;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .skin.s-1 {
+        background-color: $main-bg-1;
+        background-size: 100%;
+      }
+      .skin.s-2 {
+        background-image: $main-bg-2;
+        background-size: 100%;
+      }
+      .skin.s-3 {
+        background-image: $main-bg-3;
+        background-size: 100%;
+      }
+      .skin.s-4 {
+        background-image: $main-bg-4;
+        background-size: 100%;
+      }
+      .skin.s-5 {
+        background-image: $main-bg-5;
+        background-size: 100%;
+      }
+      .skin.s-6 {
+        background-image: $main-bg-6;
+        background-size: 100%;
+      }
+
+    }
+  }
+  /**  Light Dark modes  **/
+  .ms-dark {
+    background: #fff;
+    padding: 15px;
+    overflow: auto;
+    border: 1px solid $title-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      width: 25px;
+      height: 25px;
+      margin: 7px;
+      display: inline-flex;
+      -webkit-transition: all ease-in 0.3s;
+      transition: all ease-in 0.3s;
+      span {
+        @include ease3;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        border-radius: $border-radius-10;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .dark {
+        background-color: #555;
+      }
+      .light {
+        background-color: #fff;
+      }
+      .skin.s-3 {
+        background-image: $main-bg-3;
+        background-size: 100%;
+      }
+      .skin.s-4 {
+        background-image: $main-bg-4;
+        background-size: 100%;
+      }
+      .skin.s-5 {
+        background-image: $main-bg-5;
+        background-size: 100%;
+      }
+      .skin.s-6 {
+        background-image: $main-bg-6;
+        background-size: 100%;
+      }
+
+    }
+  }
+}

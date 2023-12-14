@@ -1,535 +1,445 @@
+<!--========================================================= 
+Item Name: Masterly - Personal Portfolio One Page HTML Template.
+Author: ashishmaraviya
+Version: 1.1
+Copyright 2022-2023
+Author URI: https://themeforest.net/user/ashishmaraviya
+============================================================-->
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en"> 
 <head>
-    <meta charset="utf-8">
-    <title>Jonna - Personal Website Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
-    <!-- CSS Files
-    ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/coloring.css" type="text/css">
-
-    <!-- color scheme -->
-    <link rel="stylesheet" href="css/colors/blue.css" type="text/css">
-</head>
-
-<body id="homepage" class="homepage">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="personal portfolio, cv, resume, agency, bootstrap, clean, cv, designer, developer, freelancer, modern, one page portfolio, onepage, personal portfolio, responsive, resume, vcard" />
+    <meta name="description" content="Best personal portfolio modern html template.">
+    <meta name="author" content="ashishmaraviya">
+	<title>Masterly - Personal Portfolio One Page HTML Template.</title>
+	<!-- Fav icon -->
+	<link rel="icon" href="landing-assets/img/favicon.png">
+	<!-- Font Family -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	
-	<div id="bg-overlay"></div>
+	<!-- Bootstrap stylesheet -->
+	<link rel="stylesheet" href="landing-assets/css/bootstrap.css">
+	<!-- Site Main stylesheet -->
+	<link rel="stylesheet" href="landing-assets/css/landing-style.css">
+	<!-- Responsive stylesheet -->
+	<link rel="stylesheet" href="landing-assets/css/landing-responsive.css">
+</head>
+<body class="hero-anime">
+	<!-- <div id="ir-overlay"><span class="loader_img"></span></div> -->
+	<div class="nav-body hero-anime">
+		<div class="navigation-wrap bg-light start-header start-style">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-md navbar-light">
+						
+							<a class="navbar-brand" href="index.html" target="_blank"><img src="landing-assets/img/logo.png" alt=""></a>	
+							
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon ir-header-btn ir-side-toggle d-lg-none"></span>
+							</button>
+							
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto py-4 py-md-0">
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+										<a class="mn-nav nav-link" href="#overview">Overview</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="mn-nav nav-link" href="#demos">Demos</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="mn-nav nav-link" href="#core">Core Features</a>
+									</li>
+								</ul>
+							</div>
+							
+						</nav>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ir-side-cart-overlay"></div>
 
-    <div id="wrapper" class="fullwidth no-padding">
-        <div id="main">
+	<!-- masterly Mobile Menu Start -->
+	<div id="ir-mobile-menu" class="ir-side-cart ir-mobile-menu">
+		<div class="ir-menu-title">
+			<span class="menu_title">Menu</span>
+			<button class="ir-close">×</button>
+		</div>
+		<div class="ir-menu-inner">
+			<div class="ir-menu-content">
+				<ul>
+					<li><a class="mn-nav" href="#overview">Overview</a></li>
+					<li><a class="mn-nav" href="#demos">Demos</a></li>
+					<li><a class="mn-nav" href="#core">Core Features</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- masterly mobile Menu End -->
 
-            <!-- TOP BAR BEGIN -->
-            <div id="top-bar" class="transparent dark">
-
-                <div id="logo">
-                    Jonna Satria
-                </div>
-
-                <nav>
-                    <ul id="mainmenu">
-                        <li><a href="#section-home" class="active"><span>01</span>Home</a></li>
-                        <li><a href="#section-experiences"><span>02</span>Experiences</a></li>
-                        <li><a href="#section-portfolio"><span>03</span>Portfolio</a></li>
-                        <li><a href="#section-contact"><span>04</span>Contact</a></li>
-                    </ul>
-                </nav>
-
-                <span id="menu-btn">
-					<span class="lt"></span>
-					<span class="lm"></span>
-					<span class="lb"></span>
-				</span>
-
-                <div id="mp-col">
-                    <a href="#" class="btn-download light"><span class="id-color"><i class="fa fa-file-pdf-o"></i></span>Download CV</a>
-                </div>
-
-                <div class="clearfix"></div>
-
-            </div>
-            <!-- TOP BAR CLOSE -->
-
-            <!-- CONTENT BEGIN -->
-            <div id="content">
-
-                <div class="page-deco">+208 333 9296</div>
-
-                <div class="social-icons-fixed">
-                    <div class="sc-inner">
-                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-envelope-o fa-lg"></i></a>
-                    </div>
-                </div>
-
-                <!-- section begin -->
-                <section id="section-home" aria-label="section" class="full-height no-top no-bottom text-light" data-bgimage="url(images/background/1.jpg)">
-                    <div class="overlay-bg t50">
-                        <div class="middle">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <p class="lead"><span class="id-color">Hi, welcome to my personal website.</span></p>
-                                        <div class="spacer20"></div>
-                                        <div class="h1_big">My name Jonna Satria, a
-                                            <br> London based
-                                            <div class="typed-strings">
-                                                <p>Designer</p>
-                                                <p>Programmer</p>
-                                                <p>Photographer</p>
-                                            </div>
-                                            <div class="typed"></div>
-                                        </div>
-                                        <div class="spacer60"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#section-services" class="scroll-to">
-                        <span class="arrow bounce">
-							<i class="arrow_down"></i>
-                        </span>
-                    </a>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-services" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/1.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_lightbulb id-color"></i>
-                                                <h3>Conceptual Design</h3> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                            </div>
-                                            <i class="big icon_lightbulb id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_flowchart_alt id-color"></i>
-                                                <h3>Market Inteligence</h3> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                            </div>
-                                            <i class="big icon_flowchart_alt id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_cogs id-color"></i>
-                                                <h3>Mechanical Engineering</h3> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                            </div>
-                                            <i class="big icon_cogs id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-experiences" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/2.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-                                    <p class="lead">
-                                        I am a website designer from London, with a strong focus in UI/UX design. I love to get new experiences and always learn from my surroundings. I've done more than 285 projects. I looking forward to any opportunities and challenges.
-                                    </p>
-
-                                    <div class="spacer30"></div>
-
-                                    <div class="de_tab tab_style_2">
-                                        <ul class="de_nav">
-                                            <li class="active">
-                                                <span>Works</span>
-                                            </li>
-                                            <li>
-                                                <span>Education</span>
-                                            </li>
-                                        </ul>
-
-                                        <div class="de_tab_content text-left">
-
-                                            <div class="tab_single_content">
-                                                <div class="exp-box">
-                                                    <h5>2014 - now</h5>
-                                                    <h4>Product Designer Freelancer</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2010 - 2014</h5>
-                                                    <h4>Product Designer at Apple</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2006 - 2010</h5>
-                                                    <h4>Product Designer at Samsung</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="tab_single_content">
-                                                <div class="exp-box">
-                                                    <h5>2014</h5>
-                                                    <h4>Product Design, Harvard University</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2010</h5>
-                                                    <h4>Master of Design, University of California</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2006</h5>
-                                                    <h4>Bachelor of Arts, Standford University</h4>
-                                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-portfolio" aria-label="section-portfolio" class="fluid overwidth">
-                    <div class="container-fluid">
-                        <div id="album-carousel-2" class="owl-carousel owl-theme">
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/1.jpg)" data-url="portfolio-single-1.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Light Bulb</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/2.jpg)" data-url="portfolio-single-2.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Winter Night</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/3.jpg)" data-url="portfolio-single-3.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Red Umbrella</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/4.jpg)" data-url="portfolio-single-4.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>The Gentleman</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/5.jpg)" data-url="portfolio-single-5.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Mountain Rock</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+	<!-- Start Page Title Section -->
+	<section class="page-hero hero-anime page-section bg-shape" id="overview">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 hero-details">
 					
-					<div class="pf-nav left"><i class="arrow_left"></i></div>
-					<div class="pf-nav right"><i class="arrow_right"></i></div>
-                </section>
-                <!-- section close -->
+					<div class="page-intro disp-block">
+						
+						<img class="logo-intro" src="landing-assets/img/logo-color.png" alt="logo-img">
+						<h1>The Best <span class="type">Multi Purpose</span> Portfolio HTML Template.</h1>
+						<div>
+							<a class="btn btn-scroll" href="javascript:void(0)">VIEW DEMO</a>
+							<a class="btn btn-primary btn-buy" href="https://themeforest.net/item/masterly-personal-portfolio-one-page-html-template/37740466">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Page Title Section -->
 
-                <!-- section begin -->
-                <section id="section-blog" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/3.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
+	<!-- Start All Demo Pages Section -->
+	<section class="portfolio pp-section sir-bg-img page-section" id="demos">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="section-header text-center">
+						<h2 class="title"><span>Pre Built</span> Demos</h2>
+						<p class="sub-title sub-title-dark">Masterly gives you to multi purpose layout for developer, designer, freelancer, engineer, specialist, content writer, instructor, photographer, politician etc. Light weight & Easy to customize, We have did this with high quality standard with unique design to build your portfolio more comfortable.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row portfolio-list border-b">
+				<div class="col-lg-6 col-md-6 mix single-portfolio-item home">
+				<span class="lable"></span>
+					<a href="demo-4/index.html" target="_blank" class="ms-rev preview home-preview demo">
+						<img src="landing-assets/img/1.png" alt="">
+					</a>
+					<a href="demo-4/index.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Light</h5>
+					</a>	
+				</div>
+				<div class="col-lg-6 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-4/dark.html" target="_blank" class="ms-rev preview home-preview demo">
+						<img src="landing-assets/img/2.png" alt="">
+					</a>
+					<a href="demo-4/dark.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Dark</h5>
+					</a>	
+				</div>
+			</div>
+			<div class="row portfolio-list border-b">
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-1/index.html" target="_blank" class="preview home-preview demo">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/d-1.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-1/index.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Light</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-1/particle.html" target="_blank" class="preview home-preview demo">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/dd-1-p.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-1/particle.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Particle</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-1/snow.html" target="_blank" class="preview home-preview demo">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/d-1-s.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-1/snow.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Snow</h5>
+					</a>	
+				</div>
+			</div>
 
-                            <div class="col-md-6">
-                                <div class="content-wrap">
+			<div class="row portfolio-list border-b">
+				
+				<!-- Home -->
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-2/index.html" target="_blank" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/01.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-2/index.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Light Mode</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-2/dark.html" target="_blank" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/08.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-2/dark.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Dark Mode</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-2/water-demo.html" target="_blank" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/water.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-2/water-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Water Animation</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-2/snow-demo.html" target="_blank" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/snow.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-2/snow-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Snow Animation</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="demo-2/insect-demo.html" target="_blank" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/insect.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-2/insect-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Insect Animation</h5>
+					</a>	
+				</div>
+				
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="javascript:void(0)" class="preview home-preview">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/coming.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="javascript:void(0)" class="btn-page">
+						<h5 class="card-title">Coming Soon...</h5>
+					</a>	
+				</div>		
+			</div>
 
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">28</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">The Best Website Design of 2022</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+			<div class="row portfolio-list">
+				
+				<!-- Home -->
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-3/index.html" target="_blank" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/31.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-3/index.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Light Mode</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-3/dark.html" target="_blank" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/32.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-3/dark.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Dark Mode</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-3/water-demo.html" target="_blank" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/33.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-3/water-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Water Animation</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-3/snow-demo.html" target="_blank" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/34.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-3/snow-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Snow Animation</h5>
+					</a>	
+				</div>
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<span class="lable"></span>
+					<a href="demo-3/insect-demo.html" target="_blank" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/35.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="demo-3/insect-demo.html" target="_blank" class="btn-page">
+						<h5 class="card-title">Insect Animation</h5>
+					</a>	
+				</div>
+				
+				<div class="col-lg-4 col-md-6 mix single-portfolio-item home">
+					<a href="javascript:void(0)" class="preview home-preview-3">
+						<span class="pc-bg">
+							<span style="background-image: url('landing-assets/img/coming.png');" class="img-scroll"></span>
+						</span>
+					</a>
+					<a href="javascript:void(0)" class="btn-page">
+						<h5 class="card-title">Coming Soon...</h5>
+					</a>	
+				</div>
+				<div class="col-lg-12">	
+					<a class="btn btn-primary btn-buy" href="https://themeforest.net/item/masterly-personal-portfolio-one-page-html-template/37740466">Buy Now</a>
+				</div>			
+			</div>
+		</div>
+	</section>
+	<!-- End All Demo Pages Section -->
+	
+	<!-- Start Core Features Section -->
+	<section class="pp-section sir-bg-01 core page-section bg-shape" id="core">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-header text-center">
+						<h2 class="title"><span>Core</span> Features</h2>
+						<p class="sub-title">Masterly have use ultimate core features like SCSS, SEO Optimization, W3 validate Code, Well Documentation, Fully Structure | Organized and commented code.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row m-t-15">
+				<!-- Single Preview -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/html-logo.png" alt="hero image">	
+					<p class="features-text">HTML5</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/css-logo.png" alt="hero image">
+					<p class="features-text">CSS3</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/sass-icon.png" alt="hero image">
+					<p class="features-text">Sass</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/bootstraap-logo.png" alt="hero image">
+					<p class="features-text">Bootstrap</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/w3c-logo.png" alt="hero image">
+					<p class="features-text">W3 validate</p>
+				</div>
+				<!-- End Single features-->
+			
+			
+				
+				<!-- Single Preview -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/responsive-icon.png" alt="hero image">	
+					<p class="features-text">Responsive</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/google-logo.png" alt="hero image">
+					<p class="features-text">Google Fonts</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/broweser-support.png" alt="hero image">
+					<p class="features-text">Browser Compatibility</p>
+				</div>
+				<!-- End Single features-->
+				
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/seo.png" alt="hero image">
+					<p class="features-text">SEO Optimize</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/well-documentation.png" alt="hero image">
+					<p class="features-text">Well Documentation</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/owl-logo.png" alt="hero image">
+					<p class="features-text">Owe Carousel</p>
+				</div>
+				<!-- End Single features-->
+				<!-- Single features -->
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<img class="features-image style-image" src="landing-assets/img/aos.png" alt="hero image">
+					<p class="features-text">AOS Animation</p>
+				</div>
+				<!-- End Single features-->
+			</div>	
+		</div>	
+	</section>
+	<!-- End Core Features Section -->
 
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">26</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">Make Better User Interface</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+	<!-- Start Built Your Site With masterly Section -->
+	<section class="pp-section page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section-header text-center">
+						<h2 class="title">Build your portfolio with <span>Masterly</span> template.</h2>
+						<h3 class="title">Purchase now, Only <span>$14</span><span class="old">$19.</span></h3>
+						<p class="s-title">HIGH PERFORMANCE <span>|</span> FREE UPDATES LIFETIME <span>|</span> Trusted Support</p>
+						<p class="sub-title">Masterly have use ultimate core features like SCSS, SEO Optimization, W3 validate Code, Well Documentation, Fully Structure | Organized and commented code.</p>
+						<div class="col-lg-12">	
+							<a class="btn btn-primary btn-buy" href="https://themeforest.net/item/masterly-personal-portfolio-one-page-html-template/37740466">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Built Your Site With masterly Section -->
 
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">24</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">The Importance Of Web Design</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+	<!-- Start Footer -->
+	<div class="footer">
+		<p>2023 copyright by Themeforest powered by Masterly.</p>
+	</div>
+	<a href="javascript:void(0)" id="return-to-top"><span>&#8679;</span></a>
+	<!-- End Footer -->
 
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">22</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">10 Web Design Tips From Experts</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">18</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">Make Responsive Website Layouts</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                
-
-                <!-- section begin -->
-                <section id="section-contact" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/4.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-                                    <div class="in-box">
-                                        <ul class="data">
-                                            <li>
-                                                <div>E-mail</div>
-                                                <div>contact@jonnasatria.com</div>
-                                            </li>
-                                            <li>
-                                                <div>Phone</div>
-                                                <div>(208) 333 9296</div>
-                                            </li>
-                                            <li>
-                                                <div>Website</div>
-                                                <div>www.mywebsite.com</div>
-                                            </li>
-                                            <li>
-                                                <div>Address</div>
-                                                <div>Collins Street West, London, UK</div>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="spacer60"></div>
-
-                                    <h3>Send message</h3>
-                                    <div class="spacer20"></div>
-                                    <form name="contactForm" id='contact_form' class="form-transparent" method="post" action='email.php'>
-
-                                        <div class="field-set">
-                                            <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div class="field-set">
-                                            <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div class="field-set">
-                                            <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div class="field-set">
-                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div id='submit'>
-                                            <input type='submit' id='send_message' value='Send' class="btn btn-custom">
-                                        </div>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.
-                                        </div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
-
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-            </div>
-            <!-- CONTENT CLOSE -->
-
-        </div>
-
-        <div id="preloader">
-            <div class="s1">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/typed-custom.js"></script>
-    <script src="js/designesia.js"></script>
-
+	<!-- jquery -->
+	<!-- <script src="landing-assets/js/jquery-3.1.0.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="landing-assets/js/typer.js"></script>
+	<!-- <script src="landing-assets/js/mixitup.js"></script> -->
+	<script src="landing-assets/js/landing-script.js"></script>
+	
 </body>
-
 </html>

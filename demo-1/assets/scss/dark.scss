@@ -1,0 +1,329 @@
+@charset "charset";
+// Dark Mode
+// Utilities ( Import Utilities )
+@import "utilities/_variables";
+@import "utilities/_mixins"; 
+
+body {
+        background-color: $dark-mode-bg-color;
+        &::-webkit-scrollbar-track {
+        background: $dark-mode-bg-light !important;
+    }
+}
+section {
+    background: $dark-mode-bg;
+}
+.section-bg {
+    background: $dark-mode-bg;
+}
+.section-title {
+    h2 {
+        color: $eee;
+    }
+}
+header {
+    background-color: #1b1d22 !important;
+    .ms-social {
+        li {
+            a{
+                color: $white;
+            }
+        }
+    }
+}
+.ms-news-section {
+    .ms-pagination {
+        ul {
+            .dots {
+                color: $white;
+            }
+        }
+    }
+}
+.ms-contact-section {
+    form {
+        .form-group {
+            input, textarea {
+                background: $dark-mode-bg-light-color;
+                border-color: $dark-mode-bg-light-color;
+            }
+        }
+    }
+}
+.ms-contact-section {
+    .ms-contact-detail {
+        .ms-box {
+            .info {
+                h3 {
+                    color: $white;
+                }
+                p{
+                    color: $ccc;
+                }
+            }
+        }
+    }
+    form {
+        .form-group {
+            input, textarea {
+                color: $bbb;
+            }
+        }
+    }
+}
+#overlay_shine {
+    background: rgba(255, 255, 255, .05);
+}
+.main-bg-black {
+    background: $dark-mode-bg-light-color;
+}
+.ms-btn {
+    background: $dark-mode-bg-light-color;
+    border-color: $dark-mode-bg-light-color;
+    &:hover {
+        background: $dark-mode-bg-color;
+        border-color: $dark-mode-bg-light-color;
+        color: $white;
+    }
+}
+.ms-btn-1 {
+    background: $dark-mode-bg-color;
+    border-color: $dark-mode-bg-light-color;
+    color: $white;
+    &:hover {
+        background: $dark-mode-bg-light-color;
+        border-color: $dark-mode-bg-light-color;
+    }
+}
+.ms-tool {
+    .ms-tool-btn {
+        background: $dark-mode-bg-color;
+        border-color: $dark-mode-bg-color;
+        color: $white;
+    }
+    .ms-color, .ms-dark {
+        background-color: $dark-mode-bg-light-color;
+    }
+}
+.ms-tool {
+    .ms-tool-btn {
+        border-color: $dark-mode-bg-light-color;
+    }
+}
+.sidebar-title {
+    border-color: $dark-mode-bg-light;
+    h5, a {
+        color: $white;
+    }
+}
+.ms-navigation {
+    ul {
+        li {
+            border-color: transparent;
+            background-color: transparent;
+             a {
+                color: $white;
+             }
+             .noty {
+                 span{
+                    background: #000;
+                    &:after {
+                        background-color: #000;
+                    }
+                 }
+            }
+        }
+    }
+}
+.main-bg {
+    background: $dark-mode-bg-light;
+}
+.ms-home {
+    .profile-img {
+        border-color: $dark-mode-bg-color;
+    }
+    .ms-detail {
+        border-color: $dark-mode-bg-light-color;
+        .info {
+            h1{
+                color: $white;
+            }
+            h2 {
+                color: $eee;
+            }
+            p {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-about-info {
+    ul {
+        li {
+            color: $bbb;
+            .title, b {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-about-detail {
+    h4 {
+        color: $ccc;
+    }
+    .ms-text {
+        color: $bbb;
+    }
+}
+.ms-skill-progress {
+    h5 {
+        color: $ccc;
+    }
+    .progress {
+        background: $dark-mode-bg;
+        border: 1px solid $dark-mode-bg-light-color;
+    }
+    .progress-done {
+        background: $dark-mode-bg-light-color;
+        span {
+            color: $white;
+        }
+    }
+}
+.timeline-marker{
+    &:after, &:before {
+        border-color: $dark-mode-bg-light-color;
+    }
+}
+.ms-cursor {
+    border: 1px solid $white;
+  }
+  
+  .ms-cursor-2 {
+    background-color: $white;
+  }
+.timeline-period-end {
+    &:after {
+        border-color: $dark-mode-bg-light-color;
+    }
+}
+.service-box {
+    .main-box {
+        .box-front {
+            background: $dark-mode-bg-light;
+            border-color: $dark-mode-bg-light-color;
+        }
+    }
+}
+.ms-news-section {
+    .ms-pagination {
+        ul {
+            li {
+                a {
+                    border-color: $dark-mode-bg-light-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+.box-back {
+    .btn {
+        background: $dark-mode-bg-light-color;
+        border-color: $dark-mode-bg-light-color;
+        &:hover {
+            background: $dark-mode-bg-color;
+            color: $white;
+        }
+    }
+}
+.flipper {
+    .content-wrap {
+        .svg_img {
+            path {
+                fill: $ccc;
+            }
+        }
+    }
+}
+.box-front {
+    .content-wrap {
+        h3 {
+            color: $ccc;
+        }
+        p {
+            color: $bbb;
+        }
+    }
+    .bg-img {
+        path {
+            fill: $ccc;
+        }
+    }
+}
+.education, .experiense {
+    h4 {
+        color: $ccc;
+    }
+}
+.timeline-info {
+    span{
+        color: $bbb;
+    }
+}
+.timeline-content {
+    p {
+        color: $bbb;
+    }
+}
+.achive {
+    .count_block {
+        background: $dark-mode-bg-light;
+        border-color: $dark-mode-bg-light-color;
+        h3 {
+            color: $eee;
+        }
+        p {
+            color: $bbb;
+        }
+        .counter-icon {
+            path {
+                fill: $ccc;
+            }
+        }
+    }
+}
+.portfolio-tabs {
+    ul {
+        li {
+            color: $eee;
+        }
+    }
+}
+.mixitup-control-active {
+    color: $main-primary-color !important;
+}
+.hovereffect {
+    background: $dark-mode-bg-light;
+    border-color: $dark-mode-bg-light-color;
+}
+.ms-news-section {
+    .news-info {
+        background: $dark-mode-bg-light;
+        border-color: $dark-mode-bg-light-color;
+        .detail {
+            h3 {
+                a{
+                    color: $eee;
+                }
+            }
+            p {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-box {
+    background: $dark-mode-bg-light;
+    border-color: $dark-mode-bg-light-color;
+}

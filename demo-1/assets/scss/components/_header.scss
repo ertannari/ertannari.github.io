@@ -1,0 +1,152 @@
+/*===== Header css =====*/
+header {
+  @include ease3;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0,-50%);
+  z-index: 16;
+  .ms-social {
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    li {
+      margin: 0 5px;
+        a {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $title-color;
+        }
+    }
+  }
+}
+.sidebar-title {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid $border-color;
+  display: none;
+  h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: $title-color;
+  }
+  a {
+    color: $title-color;
+  }
+}
+.ms-open {
+  transform: translateX(0);
+}
+.header-overlay {
+  display: none;
+}
+.nav-toggle {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-mode-bg-light;
+  color: $white;
+  border: 1px solid #404550;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 16;
+  display: none;
+  &:hover {
+    color: $white;
+  }
+}
+/** Navigation css **/
+.ms-navigation {
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        @include ease3;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        border-right: 0;
+        border-left: 1px solid $border-color;
+        border-top: 1px solid $border-color;
+        background-color: $white;
+        &:last-child {
+          border-bottom: 1px solid $border-color;
+        }
+        a {
+          width: 100%;
+          padding: 14px 13px 13px 14px;
+          display: flex;
+          color: $title-color;
+          font-size: 15px;
+          font-weight: 500;
+          i {
+            @include ease3;
+            width: 23px;
+            font-size: 17px;
+            text-align: center;
+          }
+          span {
+            display: none;
+          }
+        }
+        &:hover {
+          // padding-left: 10px;
+          span {
+            opacity: 1;
+            left: -130px;
+          }
+          a{
+           i {
+             opacity: 1;
+            //  transform: scale(1.08);
+           } 
+          }
+        }
+        .noty {
+          @include ease3;
+          pointer-events: none;
+          width: 120px;
+          opacity: 0;
+          color: #000;
+          position: absolute;
+          top: 50%;
+          left: -150px;
+          text-align: right;
+          transform: translate(0%, -50%);
+          span {
+            background: $border-color;
+            padding: 5px 12px;
+            border-radius: 30px;
+            font-size: 13px;
+            color: $white;
+            text-transform: uppercase;
+            &:after {
+              content: "";
+              position: absolute;
+              width: 12px;
+              height: 12px;
+              background-color: $border-color;
+              border-radius: 2px;
+              top: 50%;
+              right: -2%;
+              -webkit-transform: translate(-50%, 50%) rotate(45deg);
+              transform: translate(0%, -50%) rotate(45deg);
+              bottom: 1px;
+            }
+          }
+          
+        }
+      }
+    }
+}
