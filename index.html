@@ -656,17 +656,22 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                         <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
                             <form id="cform" action="https://formsubmit.io/send/ertanari@outlook.com" method="POST" novalidate="novalidate">
 							<input name="_redirect" type="hidden" value="https://ertannari.github.io/">
-                                <div class="form-group" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Full Name">
-                                </div>
-                                <div class="form-group" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                </div>
-                                <div class="form-group" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
-                                <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <button type="submit" class="custom-btn ms-btn-1" onclick="$('#cform').submit(); return false" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">Submit</button>
-                            </form>
+                               <div class="group-val">
+                    <input type="text" name="name" placeholder="Full Name" id="name">
+                </div>
+                <div class="group-val">
+                    <input type="email" name="email" placeholder="Email Address" id="email">
+                </div>
+                <div class="group-val ct-gr">
+                    <textarea name="message" placeholder="Your Message" id="message"></textarea>
+                </div>
+                <div class="group-bts">
+                    <button type="button" class="btn hover-animated" onclick="$('#cform').submit(); return false;">
+                        <span class="circle"><span class="ink" style="height: 165.578px; width: 165.578px; top: -18.281px; left: -17.3747px;"></span></span>
+                        <span class="lnk">Send Message</span>
+                    </button>
+                </div>
+				</form>
                         </div>
                     </div>
                 </div>
